@@ -1,0 +1,83 @@
+
+p {
+  margin: 0;
+}
+
+// Buttons
+.rectangle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 50%;
+  text-decoration: none;
+  color: white;
+  background: #42b983 !important;
+}
+.rectangle-button:hover {
+  color: white ;
+}
+.white-button {
+  color: #42b983;
+  background: white !important;
+}
+.red-button {
+  color: white;
+  background-color: red !important;
+}
+.gray-button {
+  background-color: gray !important;
+}
+.clickable {
+  cursor: pointer;
+}
+
+//Layout settings
+.left-text-col {
+  text-align: left;
+}
+.right-text-col {
+  text-align: right;
+}
+
+// Subtitles
+.subtitle {
+  color: #42b983;
+}
+
+//Separators
+.separator {
+  width: 70px;
+  background: #42b983;
+  height: 2px;
+}
+.full-width {
+  width: 100%;
+}
+// Star reviews
+.fill-star {
+  color: gold;
+}
+
+// Text styling
+.cut-text {
+  text-decoration: line-through;
+}
+
+// Margins
+.margin-30 {
+  margin-top: 30px;
+}
+.margin-60-bottom {
+  margin-bottom: 60px;
+}
+
+//Paddings
+.padding-10 {
+  padding: 10px;
+}
+.padding-15 {
+  padding: 15px;
+}
