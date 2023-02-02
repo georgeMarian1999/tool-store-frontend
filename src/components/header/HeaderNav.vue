@@ -19,7 +19,6 @@
         </b-nav-item>
         <b-nav-item
             to="/shop"
-            v-if="user.role !== 'admin'"
             :class="{'active-page' : (ActivePage === 'shop' || ActivePage === 'product')}"
             class="navbar-item"
         >
