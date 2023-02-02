@@ -32,7 +32,7 @@ export default {
   .img-background {
     width: 50%;
     height: 500px;
-    background-image: url('../../assets/images/account.jpeg');
+    // background-image: url('../../assets/images/account.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
   }

@@ -19,6 +19,7 @@
         </b-nav-item>
         <b-nav-item
             to="/shop"
+            v-if="user.role !== 'admin'"
             :class="{'active-page' : (ActivePage === 'shop' || ActivePage === 'product')}"
             class="navbar-item"
         >
@@ -26,6 +27,7 @@
         </b-nav-item>
         <b-nav-item
             to="/cart"
+            v-if="user !== null && user.role !== 'admin'"
             :class="{'active-page' : ActivePage === 'cart'}"
             class="navbar-item"
         >
@@ -47,6 +49,14 @@
             class="navbar-item"
         >
           <p>NEW ORDERS</p>
+        </b-nav-item>
+        <b-nav-item
+            v-if="user !== null && user.role === 'admin'"
+            to="/products/list"
+            :class="{'active-page' : ActivePage === 'products' }"
+            class="navbar-item"
+        >
+          <p>PRODUCTS</p>
         </b-nav-item>
         <b-nav-item
             v-if="user === null"

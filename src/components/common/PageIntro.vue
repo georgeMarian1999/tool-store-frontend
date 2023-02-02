@@ -19,7 +19,8 @@ export default {
     justify-content: center;
     align-items: center;
     height: 150px;
-    background-image: url('../../assets/images/about.jpeg');
+    background: #42b983;
+    //background-image: url('../../assets/images/about-pic.jpg');
     background-repeat: no-repeat;
     text-transform: uppercase;
   }

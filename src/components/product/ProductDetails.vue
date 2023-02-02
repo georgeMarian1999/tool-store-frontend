@@ -122,6 +122,7 @@ export default {
   .product-details-image-wrapper {
     height: 70%;
     width: 30%;
+    max-width: 300px;
   }
   .product-details-text {
     display: flex;
